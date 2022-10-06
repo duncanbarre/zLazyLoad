@@ -1,0 +1,10 @@
+<mvc:View controllerName="lazyload.zLazyLoad.controller.start" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.f"
+	xmlns:ui="sap.ui.table">
+	<App id="app">
+		<f:DynamicPage id="mainPage">
+			<f:content>
+				<ui:Table id="scheduleTableYear" fixedColumnCount="2" selectionMode="None" rows="{YearModel>/employees}"></ui:Table>
+			</f:content>
+		</f:DynamicPage>
+	</App>
+</mvc:View>
